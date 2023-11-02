@@ -6,11 +6,11 @@ with open("README.md") as f:
     long_description = f.read()
 
 setup(
-    name="synapse-s3-storage-provider",
+    name="synapse-s3-storage-provider-delete-local",
     version=__version__,
     zip_safe=False,
-    author="matrix.org team and contributors",
-    description="A storage provider which can fetch and store media in Amazon S3.",
+    author="daniel mazurkin",
+    description="A storage provider which can fetch and store media in Amazon S3 with local delete after upload",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/matrix-org/synapse-s3-storage-provider",
